@@ -1,4 +1,4 @@
-import { Menu, SidebarClose, SidebarCloseIcon } from 'lucide-react'
+import { Menu, SidebarClose } from 'lucide-react'
 import React, { useState } from 'react'
 
 
