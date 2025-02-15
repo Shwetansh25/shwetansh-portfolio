@@ -12,7 +12,7 @@ export default function About() {
               With experience in both web and mobile development, I specialize in creating efficient, user-friendly applications using modern technologies.
             </p>
             <p>
-              My goal is to contribute to innovative projects that make a positive impact on users' lives. 
+              My goal is to contribute to innovative projects that make a positive impact on users&apos; lives. 
               I'm constantly learning and adapting to new technologies to stay at the forefront of the ever-evolving tech landscape.
             </p>
           </div>
