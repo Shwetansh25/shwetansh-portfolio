@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({
+
   children,
 }: {
   children: React.ReactNode
@@ -18,7 +19,13 @@ export default function RootLayout({
     <html lang="en" className=" scroll-smooth">
       <body
       style={{backgroundImage: "url('/bg3.jpg')"}}
-       className={`${spaceGrotesk.className} bg-cover bg-fixed bg-center bg- bg-no-repeat static  text-black antialiased`}>
+       className={`${spaceGrotesk.className}bg-cover
+    bg-center
+    bg-no-repeat
+    bg-fixed
+    text-black
+    antialiased
+    scroll-smooth`}>
         {children}
       </body>
     </html>

@@ -34,4 +34,11 @@ temp/
 .env.production.local
 
 # Ignore npm package lock file
+# Ignore npm package lock file
 package-lock.json
+
+# Ignore yarn lock file
+yarn.lock
+
+# Ignore .next file
+.next/

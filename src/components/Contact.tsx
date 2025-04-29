@@ -1,15 +1,13 @@
 export default function Contact() {
   
-  const sendMessage = () => {
 
-  }
   
   return (
     <section id="contact" className="py-20 md:py-32 ">
       <div className="container mx-auto px-4">
         <div className=" max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-8">Get in Touch</h2>
-          <form onSubmit={sendMessage} className="space-y-4 p-4" >
+          <form  className="space-y-4 p-4" >
             <div className="flex flex-col md:flex-row gap-4">
               <input 
                 type="text" 

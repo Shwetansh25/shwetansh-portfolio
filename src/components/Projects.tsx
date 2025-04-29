@@ -24,7 +24,7 @@ export default function Projects() {
     <section id="projects" className="py-20 md:py-32">
       <div className="container mx-auto px-4">
         <div className=" max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">Projects</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-12 ">Projects</h2>
           <div className="space-y-12">
             {projects.map((project, index) => (
               <div key={index} className=" group">
@@ -35,8 +35,8 @@ export default function Projects() {
                   <h3 className="text-xl md:text-2xl font-bold mb-2 group-hover:text-blue-400 transition-colors">
                     {project.title}
                   </h3>
-                  <p className="text-black mb-4">{project.description}</p>
-                  <p className="text-sm">{project.tech}</p>
+                  <p className="group-hover:text-black  mb-4">{project.description}</p>
+                  <p className="group-hover:text-black  text-sm">{project.tech}</p>
                 </a>
               </div>
             ))}

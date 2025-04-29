@@ -56,16 +56,22 @@ function RootLayout({ children }) {
             style: {
                 backgroundImage: "url('/bg3.jpg')"
             },
-            className: `${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$space_grotesk_17b3b75c$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].className} bg-cover bg-fixed bg-center bg- bg-no-repeat static  text-black antialiased`,
+            className: `${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$space_grotesk_17b3b75c$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].className}bg-cover
+    bg-center
+    bg-no-repeat
+    bg-fixed
+    text-black
+    antialiased
+    scroll-smooth`,
             children: children
         }, void 0, false, {
             fileName: "[project]/src/app/layout.tsx",
-            lineNumber: 19,
+            lineNumber: 20,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/layout.tsx",
-        lineNumber: 18,
+        lineNumber: 19,
         columnNumber: 5
     }, this);
 }
