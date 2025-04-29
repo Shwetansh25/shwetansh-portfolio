@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" className=" scroll-smooth">
       <body
-      style={{backgroundImage: "url('/bg3.jpg')"}}
+      style={{backgroundImage: "url('/bg-white.jpg')"}}
        className={`${spaceGrotesk.className}bg-cover
     bg-center
     bg-no-repeat
